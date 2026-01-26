@@ -1,42 +1,96 @@
-html {
-        background: black;
-        }
-
-h1 {
-         color: white;
-        }
-
-.profile {
-    text-align: center;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-.zen-kaku-gothic-new-regular {
+html {
+    background: black;
+}
+
+body {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    text-align: center;
     font-family: "Zen Kaku Gothic New", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    color: white
+    color: white;
+    overflow-wrap: break-word;
 }
 
 img {
-  vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: clamp(24px, 6vw, 48px);
+}
+
+.description {
+    font-weight: 400;
+    font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+    margin-top: 15px;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: clamp(100px, 20vw, 150px);
+    height: clamp(100px, 20vw, 150px);
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .sns a {
-  text-decoration: none;
+    display: inline-block;
+    margin: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: box-shadow 0.2s ease-in-out;
 }
 
-.sns a:focus,
 .sns a:focus-visible {
-  outline: none;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.6);
+}
+
+.sns-icon-x {
+    width: clamp(25px, 6vw, 30px);
+    height: auto;
+}
+
+.sns-icon-note {
+    width: clamp(50px, 10vw, 70px);
+    height: auto;
 }
 
 .btn-rect {
-  display: inline-block;
-  padding: 12px 24px;
-  background: white;
-  color: black;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 8px;
+    display: inline-block;
+    padding: clamp(8px, 2vw, 12px) clamp(16px, 4vw, 24px);
+    background: white;
+    color: black;
+    text-decoration: none;
+    font-size: clamp(14px, 3vw, 16px);
+    border-radius: 8px;
+    transition: opacity 0.2s ease-in-out;
 }
 
+.btn-rect:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 15px 10px;
+    }
+
+    .sns a {
+        margin: 8px 10px;
+    }
+}
