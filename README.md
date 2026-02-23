@@ -4,10 +4,6 @@
 
 my site
 
-[https://reel3030.f5.si/](https://reel3030.f5.si/) <br>
-[https://reel3030.pages.dev/](https://reel3030.pages.dev/) <br>
-[https://reel3030.vercal.app/](https://reel3030.vercal.app/)
-
-
-
-
+<https://reel3030.f5.si/><br>
+<https://reel3030.pages.dev/><br>
+<http://reel3030.vercel.app/>
