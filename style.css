@@ -71,7 +71,7 @@ h1 {
 }
 
 .sns-icon-github {
-    width: clamp(20px, 1vw, 40px5);
+    width: clamp(10px, 1vw, 20px);
     height: auto;
 }
 
