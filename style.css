@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(255, 133, 33) 20%, black 80%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 body {
     width: 100%;
     max-width: 960px;
@@ -11,7 +21,6 @@ body {
     padding: 20px 15px;
     text-align: center;
     font-family: "Zen Kaku Gothic New", sans-serif;
-    background: linear-gradient(to bottom, rgb(255,133,33) 20%, black 80%);
     overflow-wrap: break-word;
 }
 
