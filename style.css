@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 
-html, body {
-  height: auto;
-    color: black;
+html {
+    background: black;
 }
-
 
 body {
     width: 100%;
@@ -17,10 +15,11 @@ body {
     padding: 20px 15px;
     text-align: center;
     font-family: "Zen Kaku Gothic New", sans-serif;
+    color: white;
     overflow-wrap: break-word;
 }
 
-img {pbottom
+img {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
@@ -109,6 +108,11 @@ h1 {
 a {
   color: white;
 }
+
+
+
+
+
 
 
 
