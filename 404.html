@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found - りーるのサイト</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .error-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            padding: 20px;
+        }
+        .error-code {
+            margin: 0;
+            font-size: clamp(4rem, 20vw, 8rem);
+            line-height: 1;
+        }
+        .error-message {
+            font-size: clamp(1rem, 4vw, 1.2rem);
+            margin: 10px 0 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1 class="error-code">404</h1>
+        <p class="error-message">お探しのページは見つかりませんでした。</p>
+        <a href="index.html" class="btn-rect">トップページに戻る</a>
+    </div>
+</body>
+</html>
