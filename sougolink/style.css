@@ -32,8 +32,12 @@ a:hover {
 
 img {
     max-width: 100%;
+    width: 100%;
+    max-width: 800px; 
     height: auto;
-    vertical-align: middle;
+    aspect-ratio: 512 / 154;
+    display: block;
+    margin: 0 auto;
     border-radius: 8px;
 }
 
