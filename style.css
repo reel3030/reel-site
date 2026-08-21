@@ -61,7 +61,7 @@ h1 {
 }
 
 .sns-icon-x {
-    width: clamp(17px, 6vw, 30px);
+    width: clamp(10px, 6vw, 20px);
     height: auto;
 }
 
