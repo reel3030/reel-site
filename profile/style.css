@@ -1,0 +1,70 @@
+html {
+    background: #02001c;
+}
+
+body {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    text-align: center;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+.profile-img {
+    width: clamp(100px, 20vw, 150px);
+    height: clamp(100px, 20vw, 150px);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sns-summery {
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 8px 0;
+    font-size: large;
+}
+
+.bsky-logo {
+    width: 70px;
+    height: auto;
+    margin-right: 3px;
+}
+
+.x-logo {
+    width: 13px;
+    height: auto;
+    margin-right: 3px;
+    transform: translateY(-1px);
+}
+
+.discord-logo {
+    width: 90px;
+    height: auto;
+    margin-right: 3px;
+    transform: translateY(-1px);
+}
+
+.note-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 3px;
+    filter: invert(1);
+    transform: translateY(16px);
+}
+
+.instagram-logo {
+    width: 13px;
+    height: auto;
+    margin-right: 3px;
+    transform: translateY(-2px);
+}
+
+.yt-logo {
+    width: 76px;
+    height: auto;
+    margin-right: 3px;
+    transform: translateY(5px);
+}
