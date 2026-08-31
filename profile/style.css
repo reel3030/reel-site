@@ -68,3 +68,12 @@ body {
     margin-right: 3px;
     transform: translateY(5px);
 }
+
+.karotter-logo {
+    width: 70px;
+    height: auto;
+    margin-right: 3px;
+    transform: translateY(-41px) translateX(650px);
+    font-size: 15px;
+    text-decoration: underline;
+}
